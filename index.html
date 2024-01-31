@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>UgbeStore</title>
+
+</head>
+<body>
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <p>Free shipping for standard order over $100</p>
+        </div>
+        <div class="top-bar-right">
+            <a href="">Help & FAQs</a>
+            <a href="">My Account</a>
+            <a href="">EN</a>
+            <a href="">USD</a>
+        </div>
+    </div>
+    <nav class="nav">
+        <div class="toggle"></div>
+        <div class="nav-left">
+            <div class="logo">
+                <h3>NAME<span> STORE</span></h3>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li><a href="" class="tab-btn active" data-id="Home">Home</a></li>
+                    <li><a href="./prod-desc/product1.html" class="tab-btn" data-id="Shop">Shop</a></li>
+                    <li><a href="" class="tab-btn" data-id="About">About</a></li>
+                    <li><a href="" class="tab-btn" data-id="Contact">Contact</a></li>
+                    <p class="hot">HOT</p>
+                </ul>
+            </div>
+        </div>
+        <div class="nav-right">
+            <!-- <img src="./images/icons8-favorite-30.png" alt="" class="fav"> -->
+            <img src="./images/icons8-shopping-cart-30.png" alt="" class="cart-icon">
+            <span class="home-cart-number">0</span>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div data-aos="fade-down">
+                <h3>Men Collection 2022</h3>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="700">
+                <h1>NEW ARRIVALS</h1>
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="1400">
+                <button><a href="">SHOP NOW</a></button>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="categories">
+        <div class="category-imgs">
+            <div class="zoom-in">
+                <a href="index.html">
+                    <figure>
+                        <img src="./images/new-imgs/man-in-white-and-light-tan-outfit.jpg" alt="">
+                    </figure>
+                    <a href="" class="category-text">Men</a>
+                </a>
+            </div>
+            <div class="zoom-in">
+                <a href="">
+                    <figure>
+                        <img src="./images/new-imgs/woman-puts-hand-in-pocket.jpg" alt="">
+                    </figure>
+                    <a href="" class="category-text">Women</a>
+                </a>                
+            </div>
+            <div class="zoom-in">
+                <a href="">
+                    <figure>
+                        <img src="./images/new-imgs/new-shoes.jpg" alt="">
+                    </figure>
+                    <a href="" class="category-text">Footwears</a>
+                </a>                
+            </div>
+            <div class="zoom-in">
+                <a href="">
+                    <figure>
+                        <img src="./images/new-imgs/mens-watch-in-sun.jpg" alt="">
+                    </figure>
+                    <a href="" class="category-text">Watches</a>
+                </a>                
+            </div>
+        </div>
+    </section>
+    
+    <div class="cart">
+        <div class="cart-head">
+            <h3>MY BAG (<span class="cart-number">0</span>)</h3>
+            <img src="./images/icons8-close-24.png" alt="" class="close-cart">
+        </div>
+    
+        <div class="cart-content">
+            <!-- <h4>Your cart is empty</h4> -->
+       
+        </div>        
+        
+        <div class="cart-footer">
+            <div class="total">
+                <div class="total-title">SUBTOTAL</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button class="checkout">PROCEED TO CHECKOUT</button>
+        </div>
+    </div>   
+
+    <section id="products">
+        <div class="product-container">
+            <div class="product-head">
+                <h3><span>TRENDING</span></h3>
+                <p>Top view in this week</p>
+            </div>
+            <div class="product-imgs">
+
+                <!-- PROD 1 -->
+    
+                <div class="a-prod-img">
+                    <figure>
+                        <a href=""><img src="./images/men/2046033800_2_1_1_490x.progressive.jpg" class="img-back"
+                                alt=""></a>
+                        <a href="./prod-desc/prod1/product1.html"><img
+                                src="./images/men/2046033800_1_1_1_490x.progressive.jpg" class="img-front" alt=""></a>
+                    </figure>
+                    
+                    <div class="a-prod-info">
+                        <p class="brand">Lacoste</p>
+                        <p class="name">Simpsons New Sweatshirt</p>
+                        <!-- <span class="item-quanity" style="display: none;">1</span> -->
+                        <div class="price">
+                            <p>$450.00</p>
+                            <span class="amount">$315.00</span>
+                        </div>
+                        <div class="perks">
+                            <span class="one">New</span>
+                            <span class="two">-30%</span>
+                        </div>
+                        <button class="add-to-cart" data-id="1" >ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- PROD 2 -->
+    
+                <div class="a-prod-img">
+                    <figure>
+                        <a href=""><img src="./images/women/8849335400_2_1_1_490x.progressive.jpg" class="img-back"
+                                alt=""></a>
+                        <a href="./prod-desc/prod1/product1.html"><img
+                                src="./images/women/8849335400_1_1_1_490x.progressive.jpg" class="img-front" alt=""></a>
+                    </figure>
+                    <div class="a-prod-info">
+                        <p class="brand">Versace</p>
+                        <p class="name">Short Denim Dungarees</p>
+                        <div class="price">
+                            <span class="amount">$255.00</span>
+                        </div>
+                        <button class="add-to-cart" data-id="2" >ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- PROD 3 -->
+
+                <div class="a-prod-img prod3">
+                    <figure>
+                        <a href=""><img src="./images/women/2594443250_2_1_1_490x.progressive.jpg" class="img-back" alt=""></a>
+                        <a href="./prod-desc/prod1/product1.html"><img src="./images/women/2594443250_1_1_1_490x.progressive.jpg"
+                                class="img-front" alt=""></a>
+                    </figure>
+                    
+                    <div class="a-prod-info">
+                        <p class="brand">Prada</p>
+                        <p class="name">Cotton Off-the-Shoulder Tee</p>
+                        <div class="price">
+                            <span class="amount">$410.00</span>
+                        </div>
+                        <div class="perks perks_prod3">
+                            <span class="three">Hot</span>
+                        </div>
+                        <button class="add-to-cart" data-id="3">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- PROD 4 -->
+
+                <div class="a-prod-img">
+                    <figure>
+                        <a href=""><img src="./images/watches/4913587800_2_2_1_490x.progressive.jpg" class="img-back" alt=""></a>
+                        <a href="./prod-desc/prod1/product1.html"><img src="./images/watches/4913587800_1_1_1_490x.progressive.jpg"
+                                class="img-front" alt=""></a>
+                    </figure>
+                    
+                    <div class="a-prod-info">
+                        <p class="brand">Chanel</p>
+                        <p class="name">Watch With Faux Leather Strap</p>
+                        <!-- <span class="item-quanity" style="display: none;">1</span> -->
+                        <div class="price">
+                            <span class="amount">$165.00</span>
+                        </div>
+                
+                        <button class="add-to-cart" data-id="4">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- PROD 5 -->
+
+                <div class="a-prod-img">
+                    <figure>
+                        <a href=""><img src="./images/women/1211407558_2_1_1_380x.progressive.jpg" class="img-back"
+                                alt=""></a>
+                        <a href="./prod-desc/prod1/product1.html"><img
+                                src="./images/women/1211407558_1_1_1_380x.progressive.jpg" class="img-front" alt=""></a>
+                    </figure>
+                    
+                    <div class="a-prod-info">
+                        <p class="brand">Lacoste</p>
+                        <p class="name">Faux Shearling Cotton Jacket</p>
+                        <!-- <span class="item-quanity" style="display: none;">1</span> -->
+                        <div class="price">
+                            <p></p>
+                            <span class="amount">$270.00</span>
+                        </div>
+                        
+                        <button class="add-to-cart" data-id="5">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- PROD 6 -->
+
+                <div class="a-prod-img prod6">
+                    <figure>
+                        <a href=""><img src="./images/men/2861922250_2_1_1_490x.progressive.jpg" class="img-back" alt=""></a>
+                        <a href="./prod-desc/prod1/product1.html"><img src="./images/men/2861922250_1_1_1_490x.progressive.jpg"
+                                class="img-front" alt=""></a>
+                    </figure>
+                    <div class="a-prod-info">
+                        <p class="brand">Dolce & Gabana</p>
+                        <p class="name">Two-Tone Sleeveless Shirt</p>
+                        <span class="item-quanity" style="display: none;">1</span>
+                        <div class="price">
+                            <p>$390.00</p>
+                            <span class="amount">$295.50</span>
+                        </div>
+                        <div class="perks_prod6">
+                            <span class="four">-25%</span>
+                        </div>
+                        <button class="add-to-cart" data-id="6">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- PROD 7 -->
+    
+                <div class="a-prod-img">
+                    <figure>
+                        <a href=""><img src="./images/footwears/4138332107_2_3_1_490x.progressive.jpg" class="img-back"
+                                alt=""></a>
+                        <a href="./prod-desc/prod1/product1.html"><img
+                                src="./images/footwears/4138332107_1_1_1_490x.progressive.jpg" class="img-front" alt=""></a>
+                    </figure>
+                    <!-- <div class="perks">
+                            <p>New</p>
+                            <h5>-30%</h5>
+                        </div> -->
+                    <div class="a-prod-info">
+                        <p class="brand">Zara</p>
+                        <p class="name">Men's Camouflage Mesh Sneakers</p>
+                        <div class="price">
+                            <span class="amount">$390.00</span>
+                        </div>
+                        <button class="add-to-cart" data-id="7">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- PROD 8 -->
+    
+                <div class="a-prod-img">
+                    <figure>
+                        <a href=""><img src="./images/men/1271613811_2_1_1_490x.progressive.jpg" class="img-back" alt=""></a>
+                        <a href="./prod-desc/prod1/product1.html"><img src="./images/men/1271613811_1_1_1_490x.progressive.jpg"
+                                class="img-front" alt=""></a>
+                    </figure>
+                    <div class="a-prod-info">
+                        <p class="brand">Calvin Klein</p>
+                        <p class="name">Tailored Fit Men's Polo Shirt</p>
+                        <div class="price">
+                            <span class="amount">$310.00</span>
+                        </div>
+                        <button class="add-to-cart" data-id="8">ADD TO CART</button>
+                    </div>
+                </div>    
+            </div>
+            <div class="load-more_container">
+                <button class="load-more">Load More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="extra">
+        <div class="extra-left">
+            <img src="./images/5_2022-03-02_600x.jpg" alt="">
+            <div class="extra-left_text">
+                <p class="top">LOOKBOOK 2022</p>
+                <p class="bottom">MAKE LOVE THIS LOOK</p>
+            </div>
+        </div>
+        <div class="extra-right">
+            <img src="./images/6_2022-03-02_600x.jpg" alt="">
+            <div class="extra-right_text">
+                <p class="top">SUMMER SALE</p>
+                <p class="bottom">UP TO 70%</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="blog-head">
+            <h3><span>LATEST FROM BLOG</span></h3>
+            <p>The freshest and most exciting news</p>
+        </div>
+        <div class="blog-content_desktop">
+            <div class="blogpost">
+                <div class="blogpost_img">
+                    <img src="./images/blog/1-7-1_1200x.jpg" alt="">
+                </div>
+                <div class="blogpost_text">
+                    <h3>Spring – Summer Trending 2022</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit. Voluptate, amet? 
+                         Voluptates temporibus enim quibusdam 
+                         eligendi,...</p>
+                        <div class="comment">
+                            <h4>By<span> admin </span>on <span>May 11, 2022</span></h4>
+                            <div class="comment-img">
+                                <img src="./images/blog/icons8-comments-24.png" alt="">
+                                <p>20</p>
+                            </div>
+                        </div>                    
+                </div>
+            </div>
+            <div class="blogpost">
+                <div class="blogpost_img">
+                    <img src="./images/blog/2_18a7b802-d113-43bd-9e51-78373333370c-7-1_1200x.jpg" alt="">
+                </div>
+                <div class="blogpost_text">
+                    <h3>The Easiest Way to Break Out on Top</h3>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Voluptate, amet?
+                        Voluptates temporibus enim quibusdam
+                        eligendi,...</p>
+                    <div class="comment">
+                        <h4>By<span> admin </span>on <span>May 11, 2022</span></h4>
+                        <div class="comment-img">
+                            <img src="./images/blog/icons8-comments-24.png" alt="">
+                            <p>25</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blogpost">
+                <div class="blogpost_img">
+                    <img src="./images/blog/couple-7-1_1200x.jpg" alt="">
+                </div>
+                <div class="blogpost_text">
+                    <h3>Style for couple in Wedding season</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Voluptate, amet?
+                        Voluptates temporibus enim quibusdam
+                        eligendi,...</p>
+                    <div class="comment">
+                        <h4>By<span> admin </span>on <span>May 11, 2022</span></h4>
+                        <div class="comment-img">
+                            <img src="./images/blog/icons8-comments-24.png" alt="">
+                            <p>17</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="blogpost_img">
+                        <img src="./images/blog/1-7-1_1200x.jpg" alt="">
+                    </div>
+                    <div class="blogpost_text">
+                        <h3>Style for couple in Wedding season</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Voluptate, amet?
+                            Voluptates temporibus enim quibusdam
+                            eligendi,...</p>
+                        <div class="comment">
+                            <h4>By<span> admin </span>on <span>May 11, 2022</span></h4>
+                            <div class="comment-img">
+                                <img src="./images/blog/icons8-comments-24.png" alt="">
+                                <p>20</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="blogpost_img">
+                        <img src="./images/blog/2_18a7b802-d113-43bd-9e51-78373333370c-7-1_1200x.jpg" alt="">
+                    </div>
+                    <div class="blogpost_text">
+                        <h3>Style for couple in Wedding season</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Voluptate, amet?
+                            Voluptates temporibus enim quibusdam
+                            eligendi,...</p>
+                        <div class="comment">
+                            <h4>By<span> admin </span>on <span>May 11, 2022</span></h4>
+                            <div class="comment-img">
+                                <img src="./images/blog/icons8-comments-24.png" alt="">
+                                <p>25</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="blogpost_img">
+                        <img src="./images/blog/couple-7-1_1200x.jpg" alt="">
+                    </div>
+                    <div class="blogpost_text">
+                        <h3>Style for couple in Wedding season</h3>                        
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Voluptate, amet?
+                            Voluptates temporibus enim quibusdam
+                            eligendi,...</p>
+                        <div class="comment">
+                            <h4>By<span> admin </span>on <span>May 11, 2022</span></h4>
+                            <div class="comment-img">
+                                <img src="./images/blog/icons8-comments-24.png" alt="">
+                                <p>17</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="swiper-pagination"></div>
+                
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        </div>       
+
+    </section>
+
+    <section class="follow-us">
+        <div class="follow-us_head">
+            <h3><span>@ FOLLOW US ON INSTAGRAM</span></h3>
+        </div>
+        <div class="follow-us_imgs">
+            <div class="follow-us_img">
+                <img src="./images/social/b1.jpg" alt="">
+            </div>
+            <div class="follow-us_img">
+                <img src="./images/social/b3.jpg" alt="">
+            </div>
+            <div class="follow-us_img">
+                <img src="./images/social/b4.jpg" alt="">
+            </div>
+            <div class="follow-us_img">
+                <img src="./images/social/ins3_2022-03-02_400x.jpg" alt="">
+            </div>
+            <div class="follow-us_img">
+                <img src="./images/social/ins4_2022-03-02_400x.jpg" alt="">
+            </div>
+            <div class="follow-us_img">
+                <img src="./images/social/ins6_2022-03-02_400x.jpg" alt="">
+            </div>
+        </div>    
+    </section>
+
+    <div class="features">
+        <div class="feature">
+            <div class="feature-img">
+                <img src="./images/features/icons8-free-shipping-30.png" alt="">
+            </div>
+            <div class="feature-info">
+                <h3>FREE SHIPPING</h3>
+                <p>Free shipping on all US order or order above $100.</p>
+            </div>
+        </div>
+        
+        <div class="feature">
+            <div class="feature-img">
+                <img src="./images/features/icons8-customer-support-30.png" alt="">
+            </div>
+            <div class="feature-info">
+                <h3>SUPPORT 24/7</h3>
+                <p>Contact us 24 hours a day, 7 days a week.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="feature-img">
+                <img src="./images/features/icons8-return-30.png" alt="">
+            </div>
+            <div class="feature-info">
+                <h3>30 DAYS RETURN</h3>
+                <p>Simply return it within 30 days for an exchange.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="feature-img">
+                <img src="./images/features/icons8-secure-30.png" alt="">
+            </div>
+            <div class="feature-info">
+                <h3>100% SECURE PAYMENT</h3>
+                <p>We ensure secure payment with PEV.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="left">
+                <h3>BE IN TOUCH WITH US:</h3>
+                <div class="newsletter">
+                    <input type="text" placeholder="Enter your email">
+                    <!-- <span class="placeholder">Enter your email</span> -->
+                    <span class="join-us">JOIN US</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="right-img">
+                    <img src="./images/footer/icons8-facebook-24.png" alt="">
+                </div>
+                <div class="right-img">
+                    <img src="./images/footer/icons8-twitter-24.png" alt="">
+                </div>
+                <div class="right-img">
+                    <img src="./images/footer/icons8-google-24.png" alt="">
+                </div>
+                <div class="right-img">
+                    <img src="./images/footer/icons8-instagram-24.png" alt="">
+                </div>
+                <div class="right-img">
+                    <img src="./images/footer/icons8-pinterest-24.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-row">
+            <div class="col-1 col">
+                <h3>NAME <span>STORE</span></h3>
+                <div class="get-in-touch">
+                    <img src="./images/footer/icons8-location-24.png" alt="">
+                    <p>184 Main Rd E, St Albans VIC 3021, Australia</p>
+                </div>
+                <div class="get-in-touch">
+                    <img src="./images/footer/icons8-mail-24.png" alt="">
+                    <p>contact@company.com</p>
+                </div>
+                <div class="get-in-touch">
+                    <img src="./images/footer/icons8-phone-24.png" alt="">
+                    <p>+001 2233 456</p>
+                </div>
+            </div>
+            <div class="col-2 col">
+                <h3>categories</h3>
+                <div class="categories-list">
+                    <ul>
+                        <li>Men</li>
+                        <li>Women</li>
+                        <li>Footwears</li>
+                        <li>Watches</li>
+                        <li>New Arrivals</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3 col">
+                <h3>Information</h3>
+                <div class="categories-list">
+                    <ul>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Terms & Conditions</li>
+                        <li>Return & Exchanges</li>
+                        <li>Shipping & Delivery</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-4 col">
+                <h3>Useful Links</h3>
+                <div class="categories-list">
+                    <ul>
+                        <li>Latest News</li>
+                        <li>My Account</li>
+                        <li>Size Guide</li>
+                        <li>FAQs</li>
+                        <li>FAQs 2</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+    <footer class="footer-mobile">
+        <div class="content-box">
+            <div class="label">Categories</div>
+            <hr>
+            <div class="content">
+                <ul>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Footwears</li>
+                    <li>Watches</li>
+                    <li>New Arrivals</li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-box">
+            <div class="label">Information</div>
+            <hr>
+            <div class="content">
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Terms & Conditions</li>
+                    <li>Return & Exchanges</li>
+                    <li>Shipping & Delivery</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-box">
+            <div class="label">Useful Links</div>
+            <hr>
+            <div class="content">
+                <ul>
+                    <li>Latest News</li>
+                    <li>My Account</li>
+                    <li>Size Guide</li>
+                    <li>FAQs</li>
+                    <li>FAQs 2</li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-box">
+            <div class="label">Contact Us</div>
+            <hr>
+            <div class="content">
+                <div class="get-in-touch">
+                    <img src="./images/footer/icons8-location-24.png" alt="">
+                    <p>184 Main Rd E, St Albans VIC 3021, Australia</p>
+                </div>
+                <div class="get-in-touch">
+                    <img src="./images/footer/icons8-mail-24.png" alt="">
+                    <p>contact@company.com</p>
+                </div>
+                <div class="get-in-touch">
+                    <img src="./images/footer/icons8-phone-24.png" alt="">
+                    <p>+001 2233 456</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+            AOS.init({
+                duration: 1500,
+                once: true,
+            });
+        </script>
+</body>
+</html>
+
+<!-- const products = [
+{
+id: 0,
+brand: 'Lacoste',
+name: 'Simpson Sweatshirt',
+price: '$450.00',
+amount: '$315.00',
+frontImg: "./images/men/2046033800_1_1_1_490x.progressive.jpg",
+backImg: "./images/men/2046033800_2_1_1_490x.progressive.jpg",
+},
+{
+id: 1,
+brand: 'Versace',
+name: 'Short Denim Dungarees',
+amount: '$255.00',
+frontImg: "./images/women/8849335400_1_1_1_490x.progressive.jpg",
+backImg: "./images/women/8849335400_2_1_1_490x.progressive.jpg",
+}
+] -->
